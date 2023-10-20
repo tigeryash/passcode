@@ -13,7 +13,6 @@ function App() {
   const [currentTime, setCurrentTime] = useState<string>('')
   const [filled, setFilled] = useState<number>(0)
   const [answer, setAnswer] = useState<string>("Emergency")
-  const [isSet, setIsSet] = useState<number>(0)
 
   useEffect(() => {
     const interval = setInterval(() => {
